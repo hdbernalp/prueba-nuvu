@@ -9,7 +9,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
 public class Persona implements Serializable{
@@ -39,7 +40,7 @@ public class Persona implements Serializable{
 	@Column
 	private String numDocumento;
 	
-	@Column
+	@Temporal(TemporalType.DATE)
 	private Date fechaNacimiento;
 		
 
