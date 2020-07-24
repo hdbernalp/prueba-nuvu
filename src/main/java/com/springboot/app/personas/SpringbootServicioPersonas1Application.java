@@ -14,8 +14,8 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
+import com.springboot.app.autenticacion.config.JWTAuthorizationFilter;
 import com.springboot.app.autenticacion.controller.UsuarioController;
-import com.springboot.app.personas.autenticacion.config.JWTAuthorizationFilter;
 import com.springboot.app.personas.controller.PersonaController;
 
 @SpringBootApplication(exclude = { SecurityAutoConfiguration.class })

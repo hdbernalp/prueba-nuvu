@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.springboot.app.personas.autenticacion.config.CustomUser;
+import com.springboot.app.autenticacion.config.CustomUser;
 import com.springboot.app.personas.modelo.Persona;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

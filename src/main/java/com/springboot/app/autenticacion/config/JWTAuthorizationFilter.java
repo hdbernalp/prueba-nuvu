@@ -1,4 +1,4 @@
-package com.springboot.app.personas.autenticacion.config;
+package com.springboot.app.autenticacion.config;
 
 import java.io.IOException;
 import java.util.List;
